@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <main className="container mx-auto">
@@ -7,6 +9,7 @@ export default function Home() {
         Build, edit, and download your perfect CV in minutes with easy-to-use
         templates designed to impress employers.
       </p>
+      <Button>Get Started</Button>
     </main>
   );
 }
